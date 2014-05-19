@@ -15,7 +15,7 @@ function collatz(num) {
 	}
 
 if (typeof process.argv[2] === "undefined") {
-	console.log("Add an argument to the command line!");
+	console.log("Add an argument to the command line (e.g. collatz.js 10)");
 }
 else {
 	var input = process.argv[2];
